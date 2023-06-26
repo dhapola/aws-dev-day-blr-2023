@@ -50,7 +50,7 @@ spec:
       containers:
         - name: foo-container
           imagePullPolicy: Always
-          image: 341001985456.dkr.ecr.ap-south-1.amazonaws.com/foobar:foobar.0.2
+          image: xxxxxxxxx.dkr.ecr.ap-south-1.amazonaws.com/foobar:foobar.0.2
           env:
           - name: HOST_IP
             valueFrom:
